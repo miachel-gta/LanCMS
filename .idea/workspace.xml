@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd0b6d30-8d8a-4219-923a-ae39a0966479" name="Default Changelist" comment="" />
+    <list default="true" id="fd0b6d30-8d8a-4219-923a-ae39a0966479" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/helpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,7 +155,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597148406952</updated>
       <workItem from="1597148408653" duration="839000" />
-      <workItem from="1597232482578" duration="4537000" />
+      <workItem from="1597232482578" duration="4603000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <created>1597233269054</created>
@@ -174,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597233765788</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改配置信息">
+      <created>1597238731504</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597238731504</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,15 +208,15 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="项目初始化" />
-    <MESSAGE value="修改配置信息" />
     <MESSAGE value="新增自定义辅助函数文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增自定义辅助函数文件" />
+    <MESSAGE value="修改配置信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改配置信息" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="242" y="0" key="CommitChangelistDialog2" timestamp="1597233764867">
+    <state x="242" y="0" key="CommitChangelistDialog2" timestamp="1597238730477">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="242" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1597233764867" />
+    <state x="242" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1597238730477" />
     <state x="458" y="272" key="NewPhpFileDialog" timestamp="1597237219737">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fd0b6d30-8d8a-4219-923a-ae39a0966479" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/root.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/root.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +160,14 @@
       <workItem from="1597148408653" duration="839000" />
       <workItem from="1597232482578" duration="5519000" />
       <workItem from="1597320345560" duration="2650000" />
+      <workItem from="1597460549246" duration="1870000" />
+      <workItem from="1597462556796" duration="7000" />
+      <workItem from="1597462904607" duration="54000" />
+      <workItem from="1597462996441" duration="19000" />
+      <workItem from="1597463061184" duration="14000" />
+      <workItem from="1597463094214" duration="89000" />
+      <workItem from="1597463216354" duration="6000" />
+      <workItem from="1597463247964" duration="85000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <created>1597233269054</created>
@@ -230,10 +242,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="基础页面结构" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="242" y="0" key="CommitChangelistDialog2" timestamp="1597322441789">
+    <state x="242" y="0" key="CommitChangelistDialog2" timestamp="1597463456612">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="242" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1597322441789" />
+    <state x="242" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1597463456612" />
     <state x="458" y="272" key="NewPhpFileDialog" timestamp="1597321385041">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -242,9 +254,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1597322463274" />
-    <state x="337" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1597320345831">
+    <state x="337" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1597463215986">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1597320345831" />
+    <state x="337" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1597463215986" />
   </component>
 </project>

@@ -36,4 +36,10 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
+
+    //重写显示登录表单方法
+    public function showLoginForm()
+    {
+        return frontendView('auth.login');
+    }
 }

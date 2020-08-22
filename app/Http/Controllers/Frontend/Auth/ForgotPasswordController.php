@@ -29,4 +29,10 @@ class ForgotPasswordController extends Controller
     {
         $this->middleware('guest');
     }
+
+    //重写显示忘记密码页面
+    public function showLinkRequestForm()
+    {
+        return frontendView('auth.passwords.email');
+    }
 }

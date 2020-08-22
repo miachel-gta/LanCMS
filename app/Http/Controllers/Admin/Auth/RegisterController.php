@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace App\Http\Controllers\Admin\Auth;
 
 use App\User;
 use App\Http\Controllers\Controller;
@@ -68,5 +68,11 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);
+    }
+
+    //重写显示注册页面方法
+    public function showRegistrationForm()
+    {
+        return backendView('auth.register');
     }
 }

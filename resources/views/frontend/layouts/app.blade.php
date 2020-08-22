@@ -16,15 +16,15 @@
 
     <body>
         <div id="app" class="{{ route_class() }}-page">
-            @include('layouts._header')
+            @include('frontend.layouts._header')
 
             <div class="container">
-                @include('shared._messages')
+                @include('frontend.shared._messages')
 
                 @yield('content')
             </div>
 
-            @include('layouts._footer')
+            @include('frontend.layouts._footer')
         </div>
 
         <!-- Scripts -->

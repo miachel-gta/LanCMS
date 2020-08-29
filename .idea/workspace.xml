@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd0b6d30-8d8a-4219-923a-ae39a0966479" name="Default Changelist" comment="">
+    <list default="true" id="fd0b6d30-8d8a-4219-923a-ae39a0966479" name="Default Changelist" comment="修复跳转链接">
+      <change afterPath="$PROJECT_DIR$/app/Models/Admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_23_100854_create_admins_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Frontend/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backend/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backend/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backend/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/layouts/_header.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +137,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/backend" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mike\Code\LanCMS\app\Models" />
+      <recent name="C:\Users\mike\Code\LanCMS\resources\views" />
+      <recent name="C:\Users\mike\Code\LanCMS\app\Http\Controllers" />
+      <recent name="C:\Users\mike\Code\LanCMS\app\Http\Controllers\Frontend" />
+      <recent name="C:\Users\mike\Code\LanCMS\resources\views\front" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mike\Code\LanCMS\resources\views\backend" />
+      <recent name="C:\Users\mike\Code\LanCMS\app\Http\Controllers\Admin" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -171,7 +190,15 @@
       <workItem from="1597463061184" duration="14000" />
       <workItem from="1597463094214" duration="89000" />
       <workItem from="1597463216354" duration="6000" />
-      <workItem from="1597463247964" duration="2052000" />
+      <workItem from="1597463247964" duration="2713000" />
+      <workItem from="1597491140127" duration="621000" />
+      <workItem from="1597838693367" duration="4217000" />
+      <workItem from="1597925263003" duration="3102000" />
+      <workItem from="1598062645038" duration="4776000" />
+      <workItem from="1598085639393" duration="2780000" />
+      <workItem from="1598097239614" duration="6651000" />
+      <workItem from="1598148247607" duration="6841000" />
+      <workItem from="1598665063566" duration="1513000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <created>1597233269054</created>
@@ -229,7 +256,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597465229345</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="修复跳转链接">
+      <created>1597465919464</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1597465919464</updated>
+    </task>
+    <task id="LOCAL-00010" summary="构建前后台分离框架">
+      <created>1598104006482</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1598104006482</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,32 +300,49 @@
     <MESSAGE value="基础页面结构" />
     <MESSAGE value="增加字体图标" />
     <MESSAGE value="生成用户认证代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="生成用户认证代码" />
+    <MESSAGE value="修复跳转链接" />
+    <MESSAGE value="构建前后台分离框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="构建前后台分离框架" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="242" y="0" key="CommitChangelistDialog2" timestamp="1597465227854">
+    <state x="371" y="99" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598172703170">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="242" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1597465227854" />
+    <state x="371" y="99" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1598172703170" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1598665074868">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1598665074868" />
     <state x="458" y="272" key="NewPhpFileDialog" timestamp="1597321385041">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="458" y="272" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1597321385041" />
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1597322463274">
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1598104017683">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1597322463274" />
-    <state x="337" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1597463215986">
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598104017683" />
+    <state x="337" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1598665064559">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1597463215986" />
+    <state x="337" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1598665064559" />
     <state x="439" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597465901975">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="439" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1597465901975" />
-    <state x="332" y="95" width="617" height="490" key="find.popup" timestamp="1597465402258">
+    <state x="332" y="95" width="617" height="490" key="find.popup" timestamp="1598171056206">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="332" y="95" width="617" height="490" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1597465402258" />
+    <state x="332" y="95" width="617" height="490" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1598171056206" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/routes/admin.php</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
